@@ -1,7 +1,8 @@
-const { resSuccessWrite, resFaildWrite } = require("./resModule");
-const { validateKey } = require("./validateModule");
+const { resSuccessWrite, resFaildWrite } = require("../module/resModule");
+const { validateKey } = require("../module/validateModule");
+const { Post } = require("../model/PostModel");
 class apiClass {
-  constructor(app, Post) {
+  constructor(app) {
     this.app = app;
     this.Post = Post;
   }
