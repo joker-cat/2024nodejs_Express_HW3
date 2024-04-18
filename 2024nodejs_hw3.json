@@ -12,12 +12,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/post",
-					"protocol": "http",
+					"raw": "https://two024nodejs-express-hw3.onrender.com/post",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"two024nodejs-express-hw3",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"post"
 					]
@@ -32,7 +33,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\":\"小霖\",\r\n    \"content\": \"補課\",\r\n    \"type\":\"study\",\r\n    \"tags\":[\"讀書\"],\r\n     \"likes\": 2\r\n}",
+					"raw": "{\r\n    \"name\":\"小美\",\r\n    \"content\": \"烤肉\",\r\n    \"type\":\"eat\",\r\n    \"tags\":[\"休閒\",\"吃吃喝喝\"],\r\n     \"likes\": 200\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -40,12 +41,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/post",
-					"protocol": "http",
+					"raw": "https://two024nodejs-express-hw3.onrender.com/post",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"two024nodejs-express-hw3",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"post"
 					]
@@ -59,12 +61,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/post/66211f3593be1b9212702331",
-					"protocol": "http",
+					"raw": "https://two024nodejs-express-hw3.onrender.com/post/66211f3593be1b9212702331",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"two024nodejs-express-hw3",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"post",
 						"66211f3593be1b9212702331"
@@ -79,12 +82,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/post",
-					"protocol": "http",
+					"raw": "https://two024nodejs-express-hw3.onrender.com/post",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"two024nodejs-express-hw3",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"post"
 					]
@@ -107,12 +111,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/post/66211f6993be1b9212702339",
-					"protocol": "http",
+					"raw": "https://two024nodejs-express-hw3.onrender.com/post/66211f6993be1b9212702339",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"two024nodejs-express-hw3",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"post",
 						"66211f6993be1b9212702339"
