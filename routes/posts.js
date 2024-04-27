@@ -22,7 +22,13 @@ class apiClass {
       try {
         const reqObj = req.body;
         const { name, content, type } = reqObj;
-
+        // for (const key in reqObj) {
+        //   if (Object.hasOwnProperty.call(reqObj, key)) {
+        //     const element = reqObj[key];
+        //     console.log(element);
+        //   }
+        // }
+        // return
         if (name !== undefined && content !== undefined && type !== undefined) {
           const newPost = await this.Post.create(reqObj);
           resSuccessWrite(res, 200, newPost);

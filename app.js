@@ -11,7 +11,8 @@ dotenv.config({ path: "./config.env" });
 const dbUrl = process.env.URL.replace("<password>", process.env.PASSWORD);
 
 mongoose
-  .connect(dbUrl)
+  // .connect(dbUrl)
+  .connect('mongodb://127.0.0.1:27017/nodejs_homework3')
   .then(() => console.log("資料庫連線成功"))
   .catch(() => console.error("資料庫連線失敗")); 
 
